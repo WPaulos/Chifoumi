@@ -32,5 +32,26 @@ button {
   height: 60px;
 }
 
-.form-1 {
+.form {
+  display: flex;
+}
+
+.triangle-1 {
+  height: 0;
+  width: 0;
+  border-top: 210px solid #19aba0;
+  border-left: 630px solid transparent;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.triangle-2 {
+  height: 0;
+  width: 0;
+  border-left: 630px solid #b3cc33;
+  border-top: 210px solid transparent;
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }
