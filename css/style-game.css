@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Quantico";
+  src: url("/font/Quantico-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #e2122c;
+}

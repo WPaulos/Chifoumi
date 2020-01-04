@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Quantico";
+  src: url("/font/Quantico-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #e2122c;
+}
+
+body.intro {
+}
+
+body .titre {
+  font-family: "Quantico";
+  font-size: 60px;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+  text-align: center;
+}
+
+button {
+  font-family: "Quantico";
+  font-size: 40px;
+  text-transform: capitalize;
+  color: white;
+  text-shadow: -2.5px 0 black, 0 2.5px black, 2.5px 0 black, 0 -2.5px black;
+  background-color: orange;
+  border: 2.5px black solid;
+  height: 60px;
+}
+
+.form-1 {
+}
