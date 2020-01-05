@@ -9,16 +9,24 @@ body {
   background-color: #e2122c;
 }
 
-body.intro {
+body .intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
 }
 
-body .titre {
+body .intro h1 {
   font-family: "Quantico";
   font-size: 60px;
   text-transform: uppercase;
   color: white;
   text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
-  text-align: center;
+  width: auto;
+  margin: 120px auto;
+  position: relative;
+  top: 80px;
 }
 
 button {
@@ -32,26 +40,92 @@ button {
   height: 60px;
 }
 
-.form {
-  display: flex;
-}
-
 .triangle-1 {
   height: 0;
   width: 0;
-  border-top: 210px solid #19aba0;
+  border-top: 210px solid black;
   border-left: 630px solid transparent;
   position: fixed;
   top: 0;
   right: 0;
 }
 
+.triangle-1-border {
+  width: 0;
+  height: 0;
+  position: fixed;
+  border-left: 610px solid transparent;
+  border-top: 203px solid #19aba0;
+  top: 2.5px;
+  right: 4px;
+}
+
 .triangle-2 {
   height: 0;
   width: 0;
-  border-left: 630px solid #b3cc33;
+  border-left: 630px solid black;
   border-top: 210px solid transparent;
   position: fixed;
   bottom: 0;
   left: 0;
+}
+
+.triangle-2-border {
+  width: 0;
+  height: 0;
+  position: fixed;
+  border-left: 610px solid #b3cc33;
+  border-top: 203px solid transparent;
+  bottom: 2.5px;
+  left: 4px;
+}
+
+.hand-p {
+  width: 100px;
+  height: auto;
+  position: fixed;
+  right: 280px;
+  bottom: 70px;
+}
+
+.hand-r {
+  width: 130px;
+  height: auto;
+  position: fixed;
+  top: 150px;
+  right: 190px;
+  z-index: 2;
+}
+
+.hand-s {
+  width: 130px;
+  height: auto;
+  position: fixed;
+  left: 120px;
+  bottom: -20px;
+}
+
+.form-1 {
+  width: 130px;
+  height: auto;
+  position: fixed;
+  top: 80px;
+  right: 170px;
+  z-index: 1;
+}
+
+.form-2 {
+  width: 100px;
+  height: auto;
+  position: fixed;
+  right: 300px;
+  bottom: 100px;
+}
+
+.form-3 {
+  width: 200px;
+  height: auto;
+  position: fixed;
+  left: 80px;
+  bottom: 80px;
 }
