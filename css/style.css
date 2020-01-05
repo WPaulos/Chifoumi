@@ -19,32 +19,40 @@ body .intro {
 
 body .intro h1 {
   font-family: "Quantico";
-  font-size: 60px;
+  font-size: 80px;
   text-transform: uppercase;
   color: white;
-  text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+  text-shadow: -4px 0 black, 0 4px black, 4px 0 black, 0 -4px black;
   width: auto;
   margin: 120px auto;
   position: relative;
-  top: 80px;
+  top: 120px;
 }
 
 button {
   font-family: "Quantico";
-  font-size: 40px;
+  font-size: 50px;
   text-transform: capitalize;
   color: white;
   text-shadow: -2.5px 0 black, 0 2.5px black, 2.5px 0 black, 0 -2.5px black;
   background-color: orange;
-  border: 2.5px black solid;
-  height: 60px;
+  border: 3px black solid;
+  height: 80px;
+  position: relative;
+  top: 40px;
+  display: inline-block;
+  padding-bottom: 30px;
+}
+
+button a {
+  text-align: center;
 }
 
 .triangle-1 {
   height: 0;
   width: 0;
-  border-top: 210px solid black;
-  border-left: 630px solid transparent;
+  border-top: 250px solid black;
+  border-left: 660px solid transparent;
   position: fixed;
   top: 0;
   right: 0;
@@ -54,10 +62,10 @@ button {
   width: 0;
   height: 0;
   position: fixed;
-  border-left: 610px solid transparent;
-  border-top: 203px solid #19aba0;
+  border-left: 640px solid transparent;
+  border-top: 242px solid #19aba0;
   top: 2.5px;
-  right: 4px;
+  right: 5px;
 }
 
 .triangle-2 {
@@ -81,32 +89,32 @@ button {
 }
 
 .hand-p {
-  width: 100px;
+  width: 120px;
   height: auto;
   position: fixed;
   right: 280px;
-  bottom: 70px;
+  bottom: 130px;
 }
 
 .hand-r {
-  width: 130px;
+  width: 150px;
   height: auto;
   position: fixed;
-  top: 150px;
+  top: 170px;
   right: 190px;
   z-index: 2;
 }
 
 .hand-s {
-  width: 130px;
+  width: 150px;
   height: auto;
   position: fixed;
-  left: 120px;
+  left: 130px;
   bottom: -20px;
 }
 
 .form-1 {
-  width: 130px;
+  width: 160px;
   height: auto;
   position: fixed;
   top: 80px;
@@ -115,17 +123,17 @@ button {
 }
 
 .form-2 {
-  width: 100px;
+  width: 130px;
   height: auto;
   position: fixed;
   right: 300px;
-  bottom: 100px;
+  bottom: 150px;
 }
 
 .form-3 {
-  width: 200px;
+  width: 240px;
   height: auto;
   position: fixed;
   left: 80px;
-  bottom: 80px;
+  bottom: 60px;
 }
