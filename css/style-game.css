@@ -5,6 +5,94 @@
   font-style: normal;
 }
 
-body {
-  background-color: #e2122c;
+body .game {
+  display: flex;
+  justify-content: center;
+  vertical-align: center;
+  position: relative;
+}
+
+.game h3 {
+  font-family: "Quantico";
+  font-size: 50px;
+  text-transform: uppercase;
+  text-shadow: -4px 0 black, 0 4px black, 4px 0 black, 0 -4px black;
+  color: white;
+  position: fixed;
+  top: 300px;
+}
+
+.player {
+  font-family: "Quantico";
+  font-size: 15px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: black;
+}
+
+.player .you {
+  position: fixed;
+  left: 98px;
+  top: 125px;
+}
+
+.player .ia {
+  position: fixed;
+  right: 72px;
+  top: 125px;
+}
+
+.score {
+  font-family: "Quantico";
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.square-1 {
+  width: 65px;
+  height: 55px;
+  background-color: white;
+  border: 2px solid black;
+  position: fixed;
+  top: 50px;
+  left: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square-2 {
+  width: 65px;
+  height: 55px;
+  background-color: white;
+  border: 2px solid black;
+  position: fixed;
+  top: 50px;
+  right: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button .rock:focus {
+  background-color: blue;
+}
+
+.hand {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid black;
+}
+
+.hand .player-hand {
+  width: 200px;
+  height: auto;
+  transform: rotate(90deg);
+}
+
+.hand .computer-hand {
+  width: 200px;
+  height: auto;
+  transform: rotate(-90deg) rotateY(180deg);
 }
