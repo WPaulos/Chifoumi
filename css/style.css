@@ -15,7 +15,6 @@ body .intro {
   align-items: center;
   position: relative;
   flex-direction: column;
-  visibility: hidden;
 }
 
 body .intro h1 {
@@ -30,13 +29,13 @@ body .intro h1 {
   top: 120px;
 }
 
-button {
+.btn button {
   font-family: "Quantico";
   font-size: 50px;
   text-transform: capitalize;
   color: white;
   text-shadow: -2.5px 0 black, 0 2.5px black, 2.5px 0 black, 0 -2.5px black;
-  background-color: orange;
+  background-color: #ffa500;
   outline: none;
   border: 3px black solid;
   height: 80px;

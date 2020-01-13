@@ -5,6 +5,10 @@
   font-style: normal;
 }
 
+body {
+  background-color: #e2122c;
+}
+
 body .game {
   display: flex;
   justify-content: center;
@@ -19,7 +23,7 @@ body .game {
   text-shadow: -4px 0 black, 0 4px black, 4px 0 black, 0 -4px black;
   color: white;
   position: fixed;
-  top: 300px;
+  top: 280px;
 }
 
 .player {
@@ -74,25 +78,51 @@ body .game {
   align-items: center;
 }
 
-button .rock:focus {
-  background-color: blue;
+.option {
+  display: block;
+  position: fixed;
+  margin: 15px;
+}
+
+.option button {
+  height: 60px;
+  width: 140px;
+  outline: none;
+  border: 2px solid black;
+}
+
+.option .rock {
+  background-color: #ffa500;
+}
+
+.option .paper {
+  background-color: #19aba0;
+}
+
+.option .scissors {
+  background-color: #b3cc33;
 }
 
 .hand {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: 2px solid black;
 }
 
 .hand .player-hand {
   width: 200px;
   height: auto;
+  position: fixed;
+  left: 280px;
+  top: 180px;
   transform: rotate(90deg);
 }
 
 .hand .computer-hand {
   width: 200px;
   height: auto;
+  position: fixed;
+  top: 180px;
+  right: 280px;
   transform: rotate(-90deg) rotateY(180deg);
 }
