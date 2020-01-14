@@ -113,7 +113,7 @@ body .game {
   align-items: center;
 }
 
-.hand .player-rock {
+.hand .player-hand {
   width: 230px;
   height: auto;
   position: fixed;
@@ -122,43 +122,7 @@ body .game {
   transform: rotate(90deg);
 }
 
-.hand .player-paper {
-  width: 230px;
-  height: auto;
-  position: fixed;
-  left: 320px;
-  top: 180px;
-  transform: rotate(90deg);
-}
-
-.hand .player-scissors {
-  width: 230px;
-  height: auto;
-  position: fixed;
-  left: 320px;
-  top: 180px;
-  transform: rotate(90deg);
-}
-
-.hand .computer-rock {
-  width: 230px;
-  height: auto;
-  position: fixed;
-  top: 180px;
-  right: 320px;
-  transform: rotate(-90deg) rotateY(180deg);
-}
-
-.hand .computer-paper {
-  width: 230px;
-  height: auto;
-  position: fixed;
-  top: 180px;
-  right: 320px;
-  transform: rotate(-90deg) rotateY(180deg);
-}
-
-.hand .computer-scissors {
+.hand .computer-hand {
   width: 230px;
   height: auto;
   position: fixed;
